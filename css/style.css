@@ -24,6 +24,14 @@ img {
     flex-wrap: wrap;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.col-gap-15px {
+    column-gap: 15px;
+}
+
 /* contents */
 
 header {
@@ -74,19 +82,24 @@ main {
 
 footer {
     height: 10vh;
-    background-color: #0e0e0e;
+    background-color: #222222;
 }
 
 .bottom-options {
     height: 100%;
     justify-content: space-between;
-    align-items: center;
     color: white;
 }
 
 #left-foot-options {
     padding: 0px 10px;
     column-gap: 15px;
+}
+
+.symbol-position {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
 }
 
 #end-meeting {
