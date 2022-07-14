@@ -35,7 +35,7 @@ img {
 /* contents */
 
 header {
-    height: 10vh;
+    height: 5vh;
     background-color: black;
 }
 
@@ -55,8 +55,8 @@ header {
 }
 
 main {
-    height: 80vh;
-    background-color: pink;
+    height: 85vh;
+    background-color: black;
     overflow-y: auto;
 }
 
