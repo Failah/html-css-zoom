@@ -60,6 +60,10 @@ main {
     overflow-y: auto;
 }
 
+main::-webkit-scrollbar {
+    display: none;
+}
+
 .image-container {
     max-width: 1800px;
     margin: 0 auto;
