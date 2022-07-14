@@ -49,9 +49,49 @@ header {
 main {
     height: 80vh;
     background-color: pink;
+    overflow-y: auto;
+}
+
+.image-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 15px 5px;
+}
+
+.card {
+    position: relative;
+    width: calc(100%/7 - 4px);
+    margin: 2px 2px;
+}
+
+.username {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 4px;
+    padding: 5px;
 }
 
 footer {
     height: 10vh;
     background-color: #0e0e0e;
+}
+
+.bottom-options {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#left-foot-options {
+    padding: 0px 10px;
+    column-gap: 15px;
+}
+
+#end-meeting {
+    background-color: #4a4a4a;
+    height: 100%;
+    padding: 40px 20px 0px;
+    color: red;
 }
