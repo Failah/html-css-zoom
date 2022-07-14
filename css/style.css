@@ -32,6 +32,10 @@ img {
     column-gap: 15px;
 }
 
+.green-symbol {
+    color: #4bc800;
+}
+
 /* contents */
 
 header {
