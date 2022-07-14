@@ -13,3 +13,45 @@ body {
 img {
     width: 100%;
 }
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* contents */
+
+header {
+    height: 10vh;
+    background-color: black;
+}
+
+.top-options {
+    justify-content: flex-end;
+}
+
+.top-options p {
+    background-color: #4a4a4a;
+    font-weight: bold;
+    color: white;
+    margin-right: 6px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+main {
+    height: 80vh;
+    background-color: pink;
+}
+
+footer {
+    height: 10vh;
+    background-color: #0e0e0e;
+}
